@@ -6,13 +6,81 @@
 .container{
   width: 100%;
   min-height: 100vh;
-  border: 1px solid red;
+  background: #F8FAFD;
 }
 
-
-/* navbar jsx style css code */
+/* ======================= navbar jsx style css code father div ======================= */
 .navbar{
   width:100%;
-  padding: 20px;
-  border: 1px solid green;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ======================= navLogo child div ======================= */
+.navLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+i{
+  display: flex;
+  align-items: center;
+}
+.navLogo i{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* ======================= navSearch child div =======================*/
+.navSearch{
+  padding: 5px;
+  background-color: #E9EEF6;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 30px;
+  width: clamp(300px, 60vw, 900px) !important;
+  position: relative;
+}
+.navSearch i{
+  cursor: pointer;
+  font-size: 24px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.navSearch input{
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  background: transparent;
+  font-size: 17px;
+}
+
+.navSearch i:hover{
+  background: #dadee3;
+}
+.navSearch i:nth-last-child(1){
+  transform: rotate(90deg) !important;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+/* ======================= navSettings child div ======================= */
+.navSettings{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.navSettings i{
+  font-size: 24px;
+  cursor: pointer;
+}
+.navSettings img{
+  border-radius: 50%;
 }
