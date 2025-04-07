@@ -1,0 +1,18 @@
+/* app jsx style css code */
+*{
+  margin: 0;
+  padding: 0;box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+  border: 1px solid red;
+}
+
+
+/* navbar jsx style css code */
+.navbar{
+  width:100%;
+  padding: 20px;
+  border: 1px solid green;
+}
