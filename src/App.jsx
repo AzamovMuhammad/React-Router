@@ -6,6 +6,7 @@ import Starred from './pages/Starred'
 import Snoozed from './pages/Snoozed'
 import Sent from './pages/Sent'
 import Drafts from './pages/Drafts'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/snoozed' element={<Snoozed/>}></Route>
           <Route path='/sent' element={<Sent/>}></Route>
           <Route path='/drafts' element={<Drafts/>}></Route>
+          <Route path='*' element={<NotFoundPage/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
