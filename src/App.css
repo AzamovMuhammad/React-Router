@@ -1,14 +1,23 @@
 /* app jsx style css code */
 *{
   margin: 0;
-  padding: 0;box-sizing: border-box;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
   width: 100%;
   min-height: 100vh;
   background: #F8FAFD;
 }
+.messagePart{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 
+
+/* //////////////////////////////////// navbar style css code //////////////////////////////////// */
 /* ======================= navbar jsx style css code father div ======================= */
 .navbar{
   width:100%;
@@ -83,4 +92,54 @@ i{
 }
 .navSettings img{
   border-radius: 50%;
+}
+/* //////////////////////////////////// sidebar style css code //////////////////////////////////// */
+
+.sidebar {
+  width: 250px;
+  height: 90vh;
+  background-color: #f6f8fc;
+  padding: 10px;
+}
+
+.compose {
+  background-color: #cce4ff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.compose:hover {
+  background-color: #b3d7ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+li {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li a:active {
+  scale: 0.99;
 }
