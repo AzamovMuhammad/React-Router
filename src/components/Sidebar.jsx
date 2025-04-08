@@ -15,10 +15,10 @@ function Sidebar() {
       <button className="compose"><ImPencil/> Compose</button>
       <ul>
         <li><Link to="/"><RiInboxFill className="icon"/> Inbox</Link></li>
-        <li><Link to="/"><IoIosStarOutline className="icon"/> Starred</Link></li>
-        <li><Link to="/"><MdAccessTime className="icon"/> Snoozed</Link></li>
-        <li><Link to="/"><AiOutlineSend className="icon"/> Sent</Link></li>
-        <li><Link to="/"><IoDocumentOutline className="icon"/> Drafts</Link></li>
+        <li><Link to="/starred"><IoIosStarOutline className="icon"/> Starred</Link></li>
+        <li><Link to="/snoozed"><MdAccessTime className="icon"/> Snoozed</Link></li>
+        <li><Link to="/sent"><AiOutlineSend className="icon"/> Sent</Link></li>
+        <li><Link to="/drafts"><IoDocumentOutline className="icon"/> Drafts</Link></li>
       </ul>
     </div>
   )
