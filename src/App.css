@@ -143,3 +143,92 @@ li a {
 li a:active {
   scale: 0.99;
 }
+
+/* //////////////////////////////////// inbox style css code //////////////////////////////////// */
+
+.email-list {
+  width: 78%;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.email-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.categories {
+  display: flex;
+  gap: 15px;
+}
+
+.categories span {
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+}
+
+.badge {
+  background: green;
+  color: white !important;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  margin-left: 5px;
+}
+
+.emails {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.email:hover {
+  background: #f9f9f9;
+}
+
+.unread {
+  font-weight: bold;
+}
+
+.email-sender {
+  flex: 1;
+  color: #333;
+}
+
+.email-subject {
+  flex: 2;
+  color: #555;
+}
+
+.email-time {
+  flex: 0.5;
+  text-align: right;
+  color: gray;
+  font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .email {
+    flex-direction: column;
+  }
+  .email-time {
+    text-align: left;
+    margin-top: 5px;
+  }
+}
