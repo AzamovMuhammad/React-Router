@@ -239,6 +239,11 @@ li a:active {
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 78%;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .starredPart h1 {
   width: 85%;
@@ -246,12 +251,16 @@ li a:active {
 
 /* //////////////////////////////////// Sent Part style css code //////////////////////////////////// */
 .sentPart {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 78%;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .sentPart h1 {
   width: 85%;
@@ -259,12 +268,16 @@ li a:active {
 
 /* //////////////////////////////////// Draft Part style css code //////////////////////////////////// */
 .draftPart {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 78%;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .draftPart h1{
@@ -274,3 +287,20 @@ li a:active {
   width: 85%;
 }
 
+
+/* //////////////////////////////////// Draft Part style css code //////////////////////////////////// */
+.snoozedPart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 78%;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.snoozedPart h1{
+  width: 85%;
+}
