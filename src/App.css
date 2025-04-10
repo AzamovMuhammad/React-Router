@@ -1,26 +1,25 @@
 /* app jsx style css code */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.container{
+.container {
   width: 100%;
   min-height: 100vh;
-  background: #F8FAFD;
+  background: #f8fafd;
 }
-.messagePart{
+.messagePart {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-
 /* //////////////////////////////////// navbar style css code //////////////////////////////////// */
 /* ======================= navbar jsx style css code father div ======================= */
-.navbar{
-  width:100%;
+.navbar {
+  width: 100%;
   padding: 10px 30px;
   display: flex;
   align-items: center;
@@ -28,25 +27,25 @@
 }
 
 /* ======================= navLogo child div ======================= */
-.navLogo{
+.navLogo {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
-i{
+i {
   display: flex;
   align-items: center;
 }
-.navLogo i{
+.navLogo i {
   font-size: 24px;
   cursor: pointer;
 }
 
 /* ======================= navSearch child div =======================*/
-.navSearch{
+.navSearch {
   padding: 5px;
-  background-color: #E9EEF6;
+  background-color: #e9eef6;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -54,13 +53,13 @@ i{
   width: clamp(300px, 60vw, 900px) !important;
   position: relative;
 }
-.navSearch i{
+.navSearch i {
   cursor: pointer;
   font-size: 24px;
   padding: 5px;
   border-radius: 50%;
 }
-.navSearch input{
+.navSearch input {
   outline: none;
   border: none;
   padding: 10px;
@@ -69,10 +68,10 @@ i{
   font-size: 17px;
 }
 
-.navSearch i:hover{
+.navSearch i:hover {
   background: #dadee3;
 }
-.navSearch i:nth-last-child(1){
+.navSearch i:nth-last-child(1) {
   transform: rotate(90deg) !important;
   position: absolute;
   top: 5px;
@@ -80,17 +79,17 @@ i{
 }
 
 /* ======================= navSettings child div ======================= */
-.navSettings{
+.navSettings {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
-.navSettings i{
+.navSettings i {
   font-size: 24px;
   cursor: pointer;
 }
-.navSettings img{
+.navSettings img {
   border-radius: 50%;
 }
 /* //////////////////////////////////// sidebar style css code //////////////////////////////////// */
@@ -233,22 +232,20 @@ li a:active {
   }
 }
 
-
-
 /* //////////////////////////////////// starred Part style css code //////////////////////////////////// */
 
-.starredPart{
+.starredPart {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.starredPart h1{
+.starredPart h1 {
   width: 85%;
 }
 
 /* //////////////////////////////////// Sent Part style css code //////////////////////////////////// */
-.sentPart{
+.sentPart {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -256,6 +253,24 @@ li a:active {
   justify-content: center;
   text-align: center;
 }
-.sentPart h1{
+.sentPart h1 {
   width: 85%;
 }
+
+/* //////////////////////////////////// Draft Part style css code //////////////////////////////////// */
+.draftPart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.draftPart h1{
+  width: 85%;
+}
+.draftPart h2{
+  width: 85%;
+}
+
