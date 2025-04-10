@@ -232,3 +232,17 @@ li a:active {
     margin-top: 5px;
   }
 }
+
+
+
+/* //////////////////////////////////// starred Part style css code //////////////////////////////////// */
+
+.starredPart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.starredPart h1{
+  width: 85%;
+}

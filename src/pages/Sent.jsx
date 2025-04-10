@@ -2,7 +2,9 @@ import React from 'react'
 
 function Sent() {
   return (
-    <div>Sent</div>
+    <div>
+      <h1>No sent messages! Send one now!</h1>
+    </div>
   )
 }
 
