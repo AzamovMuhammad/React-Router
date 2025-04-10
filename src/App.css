@@ -246,3 +246,16 @@ li a:active {
 .starredPart h1{
   width: 85%;
 }
+
+/* //////////////////////////////////// Sent Part style css code //////////////////////////////////// */
+.sentPart{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sentPart h1{
+  width: 85%;
+}
